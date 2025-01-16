@@ -597,7 +597,7 @@
                     },
 {"name": "WebServer/examples/HttpBasicAuthSHA1",
                     "sizes": [{
-                            "flash_bytes": 1005789,
+                            "flash_bytes": 1005781,
                             "flash_percentage": 76,
                             "ram_bytes": 49664,
                             "ram_percentage": 15
