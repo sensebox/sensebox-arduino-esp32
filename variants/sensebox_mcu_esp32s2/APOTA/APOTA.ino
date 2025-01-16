@@ -98,9 +98,9 @@ void setupWiFi() {
   ssid = "senseBox:" + String(macLastFour);
 
   // Definiere die IP-Adresse, Gateway und Subnetzmaske
-  IPAddress local_IP(192.168.1.1);      // Die neue IP-Adresse
-  IPAddress gateway(192.168.1.1);       // Gateway-Adresse (kann gleich der IP des APs sein)
-  IPAddress subnet(255.255.255.0);      // Subnetzmaske
+  IPAddress local_IP(192,168,1,1);      // Die neue IP-Adresse
+  IPAddress gateway(192,168,1,1);       // Gateway-Adresse (kann gleich der IP des APs sein)
+  IPAddress subnet(255,255,255,0);      // Subnetzmaske
 
   // Setze die IP-Adresse, Gateway und Subnetzmaske des Access Points
   WiFi.softAPConfig(local_IP, gateway, subnet);
@@ -175,8 +175,14 @@ void loop() {
     if (doublePressDetected) {
         Serial.println("Doppeldruck erkannt!");
         setBootPartitionToOTA0();
+        #ifdef DISPLAY_ENABLED
+        display.clearDisplay();
+        display.display();
+        delay(50);
+        #endif
         // Neustart, um von der neuen Partition zu booten
         esp_restart();
       
     }
 }
+  

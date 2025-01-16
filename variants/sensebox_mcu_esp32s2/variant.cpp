@@ -16,8 +16,8 @@ void initVariant(void) {
     pinMode(IO_ENABLE, OUTPUT);
     digitalWrite(IO_ENABLE, LOW);
 
-    pinMode(PIN_NEOPIXEL, OUTPUT);
-    digitalWrite(PIN_NEOPIXEL, LOW);
+    pinMode(1, OUTPUT);
+    digitalWrite(1, LOW);
      
     pinMode(PIN_XB1_ENABLE, OUTPUT);
     digitalWrite(PIN_XB1_ENABLE, LOW);
