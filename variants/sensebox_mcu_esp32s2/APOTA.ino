@@ -130,7 +130,7 @@ void displayStatusBar(int progress) {
   display.fillRect(0, SCREEN_HEIGHT - 24, SCREEN_WIDTH-4, 8, BLACK); // Clear status bar area
   display.drawRect(0, SCREEN_HEIGHT - 24, SCREEN_WIDTH-4, 8, WHITE); // Draw border
   int filledWidth = (progress * SCREEN_WIDTH-4) / 100; // Calculate progress width
-  display.fillRect(1, SCREEN_HEIGHT - 23, filledWidth, 6, WHITE); // Fill progress bar
+  display.fillRect(1, SCREEN_HEIGHT - 23, filledWidth-4, 6, WHITE); // Fill progress bar
 
   display.setCursor((SCREEN_WIDTH/2)-12, SCREEN_HEIGHT - 10);
   display.setTextSize(1);
