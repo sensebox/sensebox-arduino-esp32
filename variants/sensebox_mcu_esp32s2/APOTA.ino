@@ -220,8 +220,14 @@ void setupOTA() {
 
       if (upload.status == UPLOAD_FILE_START) {
         Serial.setDebugOutput(true);
+        size_t fsize = UPDATE_SIZE_UNKNOWN;
+        if(server.clientContentLength() > 0){
+          fsize = server.clientContentLength();
+        }
+        Serial.printf("Receiving Update: %s, Size: %d\n", upload.filename.c_str(), fsize);
+
         Serial.printf("Update: %s\n", upload.filename.c_str());
-        if (!Update.begin(UPDATE_SIZE_UNKNOWN)) {  //start with max available size
+        if (!Update.begin(fsize)) {  //start with max available size
           Update.printError(Serial);
         }
       } else if (upload.status == UPLOAD_FILE_WRITE) {
