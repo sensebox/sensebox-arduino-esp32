@@ -20,7 +20,7 @@
                     },
 {"name": "NetworkClientSecure/examples/WiFiClientShowPeerCredentials",
                     "sizes": [{
-                            "flash_bytes": 996089,
+                            "flash_bytes": 996097,
                             "flash_percentage": 75,
                             "ram_bytes": 42340,
                             "ram_percentage": 12
@@ -517,7 +517,7 @@
                     },
 {"name": "HTTPUpdate/examples/httpUpdateSPIFFS",
                     "sizes": [{
-                            "flash_bytes": 976533,
+                            "flash_bytes": 976525,
                             "flash_percentage": 74,
                             "ram_bytes": 46948,
                             "ram_percentage": 14
