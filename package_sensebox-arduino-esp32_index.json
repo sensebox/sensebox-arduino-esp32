@@ -7,17 +7,25 @@
             "email": "info@sensebox.de",
             "help": {
                 "online": "https://sensebox.de"
-        },
-        "platforms": [
-          {
-            "name": "sensebox-arduino-esp32",
-            "architecture": "esp32",
-            "version": "1.0.0",
-            "category": "Contributed",
-            "url": "https://github.com/sensebox/sensebox-arduino-esp32/archive/refs/tags/2.1beta.zip"
+            },
+            "platforms": [
+                {
+                    "name": "sensebox-arduino-esp32",
+                    "architecture": "esp32",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/sensebox/sensebox-arduino-esp32/archive/refs/tags/2.1beta.zip",
+                    "archiveFileName": "sensebox-arduino-esp32-1.0.0.zip",
+                    "checksum": "SHA-256:47d4ca15b2b3808057fefcb0f9af561f10015da8a5bc48cb95e31c9ddcd5058a",
+                    "size": "37815850",
+                    "boards": [
+                        {
+                            "name": "senseBox ESP32 Board"
+                        }
+                    ],
+                    "toolsDependencies": []
+                }
+            ]
         }
     ]
-
-  }
-]
 }
