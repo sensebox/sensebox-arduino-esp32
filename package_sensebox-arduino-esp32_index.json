@@ -1,0 +1,23 @@
+{
+    "packages": [
+        {
+            "name": "sensebox-arduino-esp32",
+            "maintainer": "Eric Thieme-Garmann",
+            "websiteURL": "https://sensebox.de",
+            "email": "info@sensebox.de",
+            "help": {
+                "online": "https://sensebox.de"
+        },
+        "platforms": [
+          {
+            "name": "sensebox-arduino-esp32",
+            "architecture": "esp32",
+            "version": "1.0.0",
+            "category": "Contributed",
+            "url": "https://github.com/sensebox/sensebox-arduino-esp32/archive/refs/tags/2.1beta.zip"
+        }
+    ]
+
+  }
+]
+}
