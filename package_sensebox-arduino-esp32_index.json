@@ -14,10 +14,10 @@
                     "architecture": "esp32",
                     "version": "1.1.0",
                     "category": "Contributed",
-                    "url": "https://github.com/sensebox/sensebox-arduino-esp32/archive/refs/tags/2.1.beta.1.zip",
-                    "archiveFileName": "sensebox-arduino-esp32-2.1.beta.1.zip",
-                    "checksum": "SHA-256:561ed11475a96f6d32988968f2adf36a4984e7bfa57a3c69a1ae9c8ab048f548",
-                    "size": "39209050",
+                    "url": "https://github.com/sensebox/sensebox-arduino-esp32/archive/refs/tags/2.1.beta.2.zip",
+                    "archiveFileName": "sensebox-arduino-esp32-2.1.beta.2.zip",
+                    "checksum": "SHA-256:096a151294e15cd542bb3354b38ec6985d0f14e4cbb130341014c5080db00d63",
+                    "size": "39213450",
                     "boards": [
                         {
                             "name": "senseBox ESP32 Board"
