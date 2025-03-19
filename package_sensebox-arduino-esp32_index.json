@@ -79,7 +79,6 @@
           "checksum": "SHA-256:1099291229a9be453c771c5867b8487a0266db9246b672417337b8f511d7f820",
           "size": "341118284"
         }
-        // Weitere Systeme können hier folgen...
       ]
     },
     {
@@ -93,7 +92,6 @@
           "checksum": "SHA-256:bce77e8480701d5a90545369d1b5848f6048eb39c0022d2446d1e33a8e127490",
           "size": "208911713"
         }
-        // Weitere Einträge für andere Betriebssysteme...
       ]
     },
     {
@@ -107,7 +105,6 @@
           "checksum": "SHA-256:1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
           "size": "123456789"
         }
-        // Weitere Einträge für andere Betriebssysteme...
       ]
     },
     {
@@ -121,7 +118,6 @@
           "checksum": "SHA-256:2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b",
           "size": "234567890"
         }
-        // Weitere Einträge für andere Betriebssysteme...
       ]
     },
     {
@@ -135,7 +131,6 @@
           "checksum": "SHA-256:3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
           "size": "345678901"
         }
-        // Weitere Einträge für andere Betriebssysteme...
       ]
     },
     {
@@ -149,7 +144,6 @@
           "checksum": "SHA-256:4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
           "size": "456789012"
         }
-        // Weitere Einträge für andere Betriebssysteme...
       ]
     },
     {
@@ -163,7 +157,6 @@
           "checksum": "SHA-256:5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
           "size": "567890123"
         }
-        // Weitere Einträge für andere Betriebssysteme...
       ]
     },
     {
@@ -177,7 +170,6 @@
           "checksum": "SHA-256:6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
           "size": "678901234"
         }
-        // Weitere Einträge für andere Betriebssysteme...
       ]
     }
   ]
