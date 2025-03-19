@@ -46,11 +46,6 @@
                         },
                         {
                           "packager": "esp32",
-                          "name": "riscv32-esp-elf-gdb",
-                          "version": "14.2_20240403"
-                        },
-                        {
-                          "packager": "esp32",
                           "name": "openocd-esp32",
                           "version": "v0.12.0-esp32-20241016"
                         },
@@ -261,68 +256,6 @@
                           "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-x86_64-w64-mingw32.zip",
                           "checksum": "SHA-256:a27a2fe20f192f8e0a51b8936428b4e1cf8935cfe008ee445cc49f6fc7f6db2e",
                           "size": "28366035"
-                        }
-                      ]
-                    },
-                    {
-                      "name": "riscv32-esp-elf-gcc",
-                      "version": "esp-13.2.0_20240530",
-                      "systems": [
-                        {
-                          "host": "x86_64-pc-linux-gnu",
-                          "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-13.2.0_20240530/riscv32-esp-elf-13.2.0_20240530-x86_64-linux-gnu.tar.gz",
-                          "archiveFileName": "riscv32-esp-elf-13.2.0_20240530-x86_64-linux-gnu.tar.gz",
-                          "checksum": "SHA-256:e7fbfffbb19dcd3764a9848a141bf44e19ad0b48e0bd1515912345c26fe52fba",
-                          "size": "294346758"
-                        },
-                        {
-                          "host": "aarch64-linux-gnu",
-                          "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-13.2.0_20240530/riscv32-esp-elf-13.2.0_20240530-aarch64-linux-gnu.tar.gz",
-                          "archiveFileName": "riscv32-esp-elf-13.2.0_20240530-aarch64-linux-gnu.tar.gz",
-                          "checksum": "SHA-256:a178a895b807ed2e87d5d62153c36a6aae048581f527c0eb152f0a02b8de9571",
-                          "size": "288374597"
-                        },
-                        {
-                          "host": "arm-linux-gnueabihf",
-                          "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-13.2.0_20240530/riscv32-esp-elf-13.2.0_20240530-arm-linux-gnueabi.tar.gz",
-                          "archiveFileName": "riscv32-esp-elf-13.2.0_20240530-arm-linux-gnueabi.tar.gz",
-                          "checksum": "SHA-256:4a2f176d0f5bc8a70645975e2a08ea94145fb69b7225c5cdcbd6024a4836aaf5",
-                          "size": "287737495"
-                        },
-                        {
-                          "host": "i686-pc-linux-gnu",
-                          "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-13.2.0_20240530/riscv32-esp-elf-13.2.0_20240530-i586-linux-gnu.tar.gz",
-                          "archiveFileName": "riscv32-esp-elf-13.2.0_20240530-i586-linux-gnu.tar.gz",
-                          "checksum": "SHA-256:7a6f02f1b2effafb18600bbf602818f6923fd320f000fb8659f34acbfda8812f",
-                          "size": "299138540"
-                        },
-                        {
-                          "host": "x86_64-apple-darwin",
-                          "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-13.2.0_20240530/riscv32-esp-elf-13.2.0_20240530-x86_64-apple-darwin.tar.gz",
-                          "archiveFileName": "riscv32-esp-elf-13.2.0_20240530-x86_64-apple-darwin.tar.gz",
-                          "checksum": "SHA-256:a193b4f025d0d836b0a9d9cbe760af1c53e53af66fc332fe98952bc4c456dd9a",
-                          "size": "305025700"
-                        },
-                        {
-                          "host": "arm64-apple-darwin",
-                          "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-13.2.0_20240530/riscv32-esp-elf-13.2.0_20240530-aarch64-apple-darwin.tar.gz",
-                          "archiveFileName": "riscv32-esp-elf-13.2.0_20240530-aarch64-apple-darwin.tar.gz",
-                          "checksum": "SHA-256:7082dd2e2123dea5609a24092d19ac6612ae7e219df1d298de6b2f64cb4af0df",
-                          "size": "285458443"
-                        },
-                        {
-                          "host": "i686-mingw32",
-                          "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-13.2.0_20240530/riscv32-esp-elf-13.2.0_20240530-i686-w64-mingw32.zip",
-                          "archiveFileName": "riscv32-esp-elf-13.2.0_20240530-i686-w64-mingw32.zip",
-                          "checksum": "SHA-256:590bfb10576702639825581cc00c445da6e577012840a787137417e80d15f46d",
-                          "size": "366573064"
-                        },
-                        {
-                          "host": "x86_64-mingw32",
-                          "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-13.2.0_20240530/riscv32-esp-elf-13.2.0_20240530-x86_64-w64-mingw32.zip",
-                          "archiveFileName": "riscv32-esp-elf-13.2.0_20240530-x86_64-w64-mingw32.zip",
-                          "checksum": "SHA-256:413eb9f6adf8fdaf25544d014c850fc09eb38bb93a2fc5ebd107ab1b0de1bb3a",
-                          "size": "369820297"
                         }
                       ]
                     },
